@@ -1,0 +1,47 @@
+{
+    "name": "U-L-T-R-O-I-D",
+    "description": "telegram bot, made in python using Telethon.",
+    "logo": "https://graph.org/file/031957757a4f6a5191040.jpg",
+    "keywords": [
+        "python3"
+    ],
+    "repository": "https://github.com/",
+    "website": "#",
+    "success_url": "#",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "You api id, from my.telegram.org or @ScrapperRoBot.",
+            "value": "",
+            "required": false
+        },
+        "API_HASH": {
+            "description": "You api hash, from my.telegram.org or @ScrapperRoBot.",
+            "value": "",
+            "required": false
+        },
+        "SESSION": {
+            "description": "Session String for your telegram user account. The userbot will NOT work without a session string!!",
+            "value": ""
+        },
+        "REDIS_URL": {
+            "description": "Redis endpoint URL, from redislabs.com",
+            "value": ""
+        },
+        "REDIS_PASSWORD": {
+            "description": "Redis endpoint password, from redislabs.com",
+            "value": ""
+        },
+        "MONGO_URI": {
+            "description": "Redis endpoint URL, from redislabs.com",
+            "value": "",
+            "required": false
+        }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "eco"
+        }
+    }
+}
