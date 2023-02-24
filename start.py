@@ -24,12 +24,12 @@ TRAP = ""
 TRAP += "p"
 TRAP += "y"
 TRAP += "U"
-TRAP += "L"
-TRAP += "T"
-TRAP += "R"
-TRAP += "O"
-TRAP += "I"
-TRAP += "D"
+TRAP += "l"
+TRAP += "t"
+TRAP += "r"
+TRAP += "o"
+TRAP += "i"
+TRAP += "d"
 
 TERBUK = lambda: os.path.exists
 if TERBUK()(HTAP):
