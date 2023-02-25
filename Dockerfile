@@ -16,4 +16,4 @@ COPY . .
 RUN python3 fetch.py
 
 # start the bot.
-CMD ["python3", "start.py"]
+CMD ["bash", "run.sh"]
